@@ -1,0 +1,62 @@
+/* body{
+    background-image: url(C:\Users\Aakarshan\Desktop\html\js\Final\important\src\assets\pexels-christina-morillo-1181622.jpg);
+} */
+.home-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust as needed to center content vertically */
+    background-image: url(C:\Users\Aakarshan\Desktop\html\js\Final\important\src\assets\pexels-christina-morillo-1181622.jpg);
+    background-size: cover;
+  }
+  
+  /* Header styling */
+  .header {
+    font-size: 2rem;
+    color: #333; /* Set your desired text color */
+    margin-bottom: 1rem;
+  }
+  
+  /* Container for the cards */
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Adjust the gap between cards */
+  }
+  
+  /* Styling for each card */
+  .card {
+    background-color: #fff; /* Card background color */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    color: #333; /* Card title color */
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #777; /* Text color for card description */
+    margin: 1rem 0;
+  }
+  
+  .card a {
+    text-decoration: none;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card a:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
